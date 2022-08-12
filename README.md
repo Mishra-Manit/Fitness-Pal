@@ -1,0 +1,2 @@
+# Fitness-Pal
+Fitness Pal is an AI based web app that allows users to evaluate and improve their form. Users can input video through live video, or if preferred, upload a video. Our model is made based on the latest technology available, and will ensure that all aspects of your exercise are evaluated. Once you are done inputting your video, our AI generated results will give you a grade as well as some tips you could follow to improve your form. There are also videos available to improve your form.
