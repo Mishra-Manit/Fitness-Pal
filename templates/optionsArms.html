@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block head %} {% endblock %} {% block title%}OptionsArms{%endblock %} {% block body %}
+
+<style type="text/css">
+  #buttons{
+    margin-top: -100px;
+  }
+
+  #title{
+    margin-top: 60px;
+  }
+
+  #btn2{
+    margin-left: 10px;
+  }
+</style>
+
+<section class="page-section bg-dark text-white">
+    <div class="container px-4 px-lg-5 text-center" id="title">
+      <h3 id="recorder">Choose which input method you want below</h3>
+    </div>
+</section>
+
+<div id="choosing">
+  <section class="page-section bg-dark text-white">
+    <div class="container px-4 px-lg-5 text-center" id="buttons">
+      <a id="btn1" class="btn btn-light btn-xl" href="upload-video">Upload Video</a> 
+      <a id="btn2" class="btn btn-light btn-xl" href="preloaderArms">Live Video</a> 
+    </div>
+  </section>
+</div>
+{% endblock %}

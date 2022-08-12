@@ -1,0 +1,71 @@
+{% extends 'base.html' %} {% block head %} {% endblock %} {% block title%} FitnessPal {% endblock %} {% block body %}
+<style>
+    .fa-dumbbell{
+        font-size: 3cm;
+    }
+    .fa-graduation-cap{
+        font-size: 3cm;
+    }
+    .fa-video{
+        font-size: 3cm;
+    }
+</style>
+<head>
+    <script src="https://kit.fontawesome.com/17505819f3.js" crossorigin="anonymous"></script>
+</head>
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container">
+        <div class="masthead-subheading text-uppercase" style="font-weight: bold; font-size: 50px; margin-top: -1cm;">Fitness Pal</div>
+        <div class="masthead-heading" style="font-size: 25px; font-weight: lighter;">Using machine learning to make the weight lifting enviorment safer by leveraging its capabilities</div>
+        <a class="btn btn-primary btn-xl text-uppercase" href="exercises">Try it out!</a>
+    </div>
+</header>
+
+
+<!-- What is Fitness Pal-->
+<section class="page-section" id="services">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">What is Fitness Pal</h2>
+            <h3 class="section-subheading text-muted">Short description on what Fitness Pal does. </h3>
+        </div>
+       <p style="margin-left: 15%; margin-right: 15%; text-align: center; margin-bottom: -80px;">Fitness Pal is an AI based web app that allows users to evaluate and improve their form. Users can input video through live video, or if preferred, upload a video. Our model is made based on the latest technology available, and will ensure that all aspects of your exercise are evaluated. Once you are done inputting your video, our AI generated results will give you a grade as well as some tips you could follow to improve your form. There are also videos available to improve your form.</p>
+    </div>
+</section>
+
+<!-- Services-->
+<section class="page-section" id="services">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Services</h2>
+            <h3 class="section-subheading text-muted">These are the different services we offer after you submit a video of you performing an excercise </h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <i class="fa-solid fa-dumbbell" style="size: 50px;"></i>
+                <h4 class="my-3"> Correct Form</h4>
+                <p class="text-muted">We will analyze the video that you give us and using machine learning we will return if your form is correct and how you can correct it</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fa-solid fa-video"></i>
+                </span>
+                <h4 class="my-3">Example Video</h4>
+                <p class="text-muted">After every video we analyze we give you a small video on how to do the excercise correctly</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </span>
+                <h4 class="my-3">Overall Grade</h4>
+                <p class="text-muted">We will also give you an overall grade based on your form so you know how much you need to improve</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About-->
+</html>
+
+{% endblock %}

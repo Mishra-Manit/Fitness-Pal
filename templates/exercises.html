@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block head %} {% endblock %} {% block title%}Exercises{%endblock %} {% block body %}
+
+
+<style type="text/css">
+  .main-heading{
+    text-align: center;
+    background-color: #212529;
+    color: white;
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: -220px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .buttonscontainer{
+    background-color: #212529;
+  }
+
+  #bt1, #btn2, #btn3, #btn4, #btn5, #btn6{
+    margin-top: 20px;
+  }
+
+
+</style>
+
+
+<section class="main-heading">
+  <h3>Choose the exercise that you are doing</h3>
+</section>
+
+<section class="buttonscontainer">
+  <div class="buttons">
+    <a id="btn1" class="btn btn-light btn-xl" href="optionsArms">Bicep Curls</a> 
+    <a id="btn2" class="btn btn-light btn-xl" href="optionsArms">Hammer Curls</a> 
+    <a id="btn3" class="btn btn-light btn-xl" href="optionsArms">Preacher Curls</a> 
+    <a id="btn4" class="btn btn-light btn-xl" href="optionsLegs">Squats</a>
+    <a id="btn5" class="btn btn-light btn-xl" href="optionsLegs">Goblet Squats</a> 
+    <a id="btn6" class="btn btn-light btn-xl" href="optionsLegs">Barbell Squats</a>
+  </div>
+</section>
+
+{% endblock %}

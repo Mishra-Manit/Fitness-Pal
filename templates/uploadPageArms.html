@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block head %} {% endblock %} {% block title%}Upload Video{%endblock %} {% block body %}
+
+<style type="text/css">
+    #recorder{
+        margin-top: 50px;
+    }
+
+    #upload-part{
+        align-items: center;
+    }
+
+    #form2.upload-form{
+        margin: auto;
+        width: 500px;
+        margin-top: -120px;
+    }
+
+    .primary-btn{
+        margin-left: 35%;
+        margin-top: 20px;
+        border-radius: 7px;
+    }
+
+    #btn-move-on{
+        display: flex;
+        width: 400px;
+        justify-content: center;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+</style>
+
+<section class="page-section bg-dark text-white">
+    <div class="container px-4 px-lg-5 text-center" id="title">
+      <h3 id="recorder">Upload Video Below</h3>
+    </div>
+</section>
+
+<div id="choosing">
+    <section class="page-section bg-dark text-white" id="upload-part">
+        <form id="form2" class="upload-form" action="/upload-video" method="POST" enctype="multipart/form-data">
+            <input class="form-control" type="file" name="videofile">
+            <input class="primary-btn" type="submit" value="Send The Video">
+        </form>  
+
+        <a id="btn-move-on" class="btn btn-light btn-xl" href="analyticsArmsUpload">Move on to Analytics</a>
+    </section>
+</div>
+{% endblock %}

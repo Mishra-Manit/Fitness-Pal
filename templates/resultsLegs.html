@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  
+  <style>
+    .button{
+      text-align: right;
+      margin-bottom: 30px;
+      margin-left: 1200px;
+      margin-top: -1000px;
+      background-color: rgb(200,0,0);
+      color: white;
+      border: none;
+      height: 50px;
+      width: 240px;
+      border-radius: 2px;
+      cursor: pointer;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: top;
+    }
+    .button:hover{
+      opacity: 0.8;
+    }
+    .leaning{
+      text-align: left;
+      margin-left: 100px;
+      margin-top: -100px;
+      margin-bottom: 30px;
+      color: black;
+    }
+    .lwm-text{
+      text-align: left;
+      margin-top: -250px;
+      margin-left: 100px;
+      margin-bottom: 20px;
+      color: black;
+    }
+
+    .lb-text{
+      text-align: left;
+      margin-top: -350px;
+      margin-left: 100px;
+      margin-bottom: 20px;
+      color: black;
+    }
+
+    .bn-text{
+      text-align: left;
+      margin-top: -250px;
+      margin-left: 100px;
+      margin-bottom: 20px;
+      color: black;
+    }
+    .copyright{
+      text-align: center;
+    }
+    .text-center{
+      color:white;
+    }
+    .h4{ 
+      margin-bottom:10px;
+      font-weight: bold;
+      font-size: 30px;
+      text-align: center;
+      background-color: #212529;;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      color: white;
+    }
+    .h5{
+      text-align: center;
+      color: white; 
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 200px;
+      background-color: #212529;
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+    .video{
+      margin-top: 20px;
+    }
+    .title{
+      font-weight: bold;
+      background-color: #212529;
+      color:white ;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .grade{
+      font-size: 200px;
+      color: #212529;;
+    }
+    .videos{
+      color: white;
+      background-color: #212529;;
+      font-size: 25px;
+    }
+    .backround{
+      background-color: #212529;
+    }
+  </style>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="/static/img/Final_Logo.png" />
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+    rel="stylesheet" type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="/static/css/styles.css" rel="stylesheet" />
+  <title>Results</title>
+</head>
+
+
+<body>
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav" >
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand" href="/" onclick="loading();">Fitness Pal</a>
+  </nav>
+  <section class="page-section bg-light" id="backround">
+    <div class="container px-4 px-lg-5">
+      <h2 class="title" style="text-align: center;">Your Results!</h2> 
+      <hr class="divider" />
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-lg-6 col-md-6 text-center"> 
+          <div class="mt-5">
+            <h3 class="h4">Overall Grade</h3>
+          </div>
+            <p class="grade">
+              {{ grade }}
+            </p>
+            <h3 class="videos" style="padding-top: 10px; padding-bottom: 10px;">
+              Example Of A Good Curl
+            </h3>
+            <iframe class="video" width="560" height="315" 
+            src="https://www.youtube.com/embed/gslEzVggur8" frameborder="0" allowfullscreen></iframe>
+            </iframe>
+            </iframe>
+          <br>
+        </div>
+        <div class="col-lg-6 col-md-6 justify-content-center align-items-center">
+          <div class="container">
+            <div class="mt-5 text-center">
+              <h3 class="h4">Your Scores Are Ready!</h3>
+              <br>
+              <section>
+                <h4 class="leaning" style="margin-left: -1px;">
+                  1. Upper Body Too Low
+                </h4>
+                <p style="color:black; text-align: left;"> 
+                  This happens because your upper body is too close to your knees. If you are squatting with a lot of weight, this will kill your back. Make sure your upper body is always upright. This will save you back pain and will stop you from getting injured. Try this the next time you squat, and see how much stress will be relieved from your back.
+                </p>
+              </section>
+              <br>
+              <section>
+                <h4 class="lwm-text" style="color:black; margin-left: -1px" >
+                  2. Not Going Deep Enough
+                </h4>
+                <p style="color:black; text-align: left;">
+                  This happens when you don't go all the way down on your squats. Going all the way is very beneficial while squatting. It uses more muscle fibers and engages the lower back. Going to your natural squat depth is very important and will benefit you in the long run. Make sure you squat all the way down the next time you squat.
+                </p>
+              </section>
+
+              <br>
+              <section>
+                <h4 class="lb-text" style="color:black; margin-left: -1px; margin-top: -280px;" >
+                  3. Ankle Bent At Too High Of An Angle
+                </h4>
+                <p style="color:black; text-align: left;">
+                  This occurs when your ankles are bent at a very high angle. This is a very common error which results in injuries. Bent ankles can result in things such as twisted ankles. This is a very easy error to fix, and will provide your squat with a lot more support.
+                </p>
+              </section>
+              <br/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+  </section>
+
+  <footer class=" bg-light py-5">
+    <div class="container px-4 px-lg-5">
+      <div class="small text-center text-muted">Copyright &copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script> - Fitness Pal</div>
+    </div>
+  </footer>
+  <!-- Core theme JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
