@@ -25,6 +25,7 @@ Thus we developed Fitness Pall, an AI-based program explicitly designed to preve
 - Use pip to install [mediapipe](https://pypi.org/project/mediapipe/), [flask](https://pypi.org/project/Flask/), and [opencv](https://pypi.org/project/opencv-python/)
 - pip is automatically installed on your PC as part of your Python installation. Simply type this into your terminal
     - ``` python3 -m pip install [LIRBARY TO INSTALL] ```
+    
 ## Instructions to Use
 1. Download all the files from this repository into a folder on your computer
 2. Open your folder and run main.py
